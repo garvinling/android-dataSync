@@ -2,6 +2,8 @@ android-gameData
 ================
 package: com.induzione.sync;
 
+For more information, visit: http://www.teamalwaysblock.com/blog.html
+
 This is the package from my senior project that handles the data syncing from the firmware of the ARM7
 to the Android application. 
 
