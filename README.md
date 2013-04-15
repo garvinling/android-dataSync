@@ -2,7 +2,11 @@ android-gameData
 ================
 package: com.induzione.sync;
 
+Dependencies: This application uses the Parse API for its backend service. 
+
 For more information, visit: http://www.teamalwaysblock.com/blog.html
+
+
 
 This is the package from my senior project that handles the data syncing from the firmware of the ARM7
 to the Android application. 
