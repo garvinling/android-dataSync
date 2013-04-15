@@ -2,15 +2,19 @@ android-gameData
 ================
 package: com.induzione.sync;
 
-This is the game data class implemented in my senior project.  Wrote this class to handle the raw data conversion from OBD-II car data to custom game data.  
+This is the package from my senior project that handles the data syncing from the firmware of the ARM7
+to the Android application. 
 
-The GameData() class is one of three classes written to sync the data from vehicle to our database. 
--GameData()
--Data()
--Level()
 
-Detailed Description
+-GameData() - Handle the raw data conversion from OBD-II car data to custom game data.
+-Data()-      Decodes and stores the passed value into its proper parameter.
+-Level()-     Data structure that holds the Experience point ranges for each level.  
+
+Details
 ====================
+
+GameData()
+--------------------
 The GameData() class takes in the calculated averages of the mpg, engine load, throttle position from the Data() class
 and calculates the correct game values. 
 
@@ -27,4 +31,9 @@ Output
     Efficiency Rating (1-5)
     Driver Habit      (1-5)
     
-    
+
+Data()
+------------------
+
+Level()
+------------------
