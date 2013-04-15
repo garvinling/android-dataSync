@@ -37,6 +37,13 @@ Output
 
 Data()
 ------------------
+The Data() class handles the decoding of each data byte received from the firmware. 
+The decode function takes in the byte and the current index of the array to determine what type of data 
+we are dealing with.  The Data() class also handles the addition and averaging of all the data values received from the
+OBD-II port. 
 
 Level()
 ------------------
+The Level() class provides us with the data structure to hold the experience point ranges for each level.  This class is used
+whenever we want to check whether or not a user leveled up. Provides a min/max value for each level for an experience-point based 
+progress bar.
