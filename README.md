@@ -6,9 +6,12 @@ This is the package from my senior project that handles the data syncing from th
 to the Android application. 
 
 
--GameData() - Handle the raw data conversion from OBD-II car data to custom game data.
--Data()-      Decodes and stores the passed value into its proper parameter.
--Level()-     Data structure that holds the Experience point ranges for each level.  
+-GameData():   Handle the raw data conversion from OBD-II car data to custom game data.
+
+-Data():       Decodes and stores the passed value into its proper parameter.
+
+-Level():      Data structure that holds the Experience point ranges for each level.
+
 
 Details
 ====================
